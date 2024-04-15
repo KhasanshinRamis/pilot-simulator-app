@@ -3,6 +3,7 @@ import './App.css';
 import { PerspectiveCamera, Environment, OrbitControls } from '@react-three/drei';
 import { SphereEnv } from './components/sphereEnv';
 import { Landscape } from './components/landscape';
+import { Airplane } from './components/airplane';
 
 
 export default function App() {
@@ -20,6 +21,8 @@ export default function App() {
 			{/* Ландшафт */}
 			<Landscape />
 			
+			{/* Самолёт */}
+			<Airplane />
 
 			{/* Направления света */}
 			<directionalLight
